@@ -1,31 +1,45 @@
-header {
-    background-color: #424E61;
-    color: white;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
-.escola-imagem{
-    width: 25%;
-}
-.escola{
-    background-image: linear-gradient(#424e61, #4ebfe9);
-    color: white;
+
+header{
+    width: 100%;
+    background-color: rgb(100, 169, 223);
     display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
 }
-.empresa-div-conteudo{
-    width: 35%;
+
+.logo-imagm{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(74, 135, 228);
+    border-radius: 25px;
+
 }
-.empresa-titulo{
-    padding: 24px 0;
-}
-.empresa{
-    background-image: linear-gradient(#424E61, #4EBFE9);
-    color: white;
+.container-logo{
     display: flex;
-    justify-content: center;
     align-items: center;
-    padding: 24px 0;
+
 }
-body {
-    font-family: 'Poppins', sans-serif;
+.logo-texto{
+    margin-left: 20px;
 }
 
-
+.menu li{
+    display: inline-block;
+    margin: 0 10px;
+}
+.menu li a{
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+.menu li a:hover{
+    background-color: rgb(100, 100, 100, 0.8);
+}
